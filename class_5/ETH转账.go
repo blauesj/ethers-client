@@ -19,7 +19,7 @@ func main() {
 		log.Fatal(err)
 	}
 	// 创建一个私钥
-	privateKey, err := crypto.HexToECDSA("9af8075a23db01e091288cb0cbf4eb3b7140571a7398973e018605868cdaee39")
+	privateKey, err := crypto.HexToECDSA("")
 	if err != nil {
 		log.Fatal(err)
 	}
